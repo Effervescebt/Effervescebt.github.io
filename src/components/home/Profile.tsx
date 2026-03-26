@@ -125,9 +125,18 @@ export default function Profile({ author, social, features, researchInterests }:
 
             {/* Name and Title */}
             <div className="text-center mb-6">
-                <h1 className="text-3xl font-serif font-bold text-primary mb-2">
-                    {author.name}
-                </h1>
+                <div className="flex items-center justify-center gap-2 mb-2">
+                    <h1 className="text-3xl font-serif font-bold text-primary">
+                        {author.name}
+                    </h1>
+                    <Image
+                        src="/kuromi.png"
+                        alt="Kuromi"
+                        width={36}
+                        height={36}
+                        className="inline-block"
+                    />
+                </div>
                 <p className="text-lg text-accent font-medium mb-1">
                     {author.title}
                 </p>
