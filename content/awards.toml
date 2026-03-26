@@ -1,27 +1,25 @@
 type = "card"
 title = "Awards"
-description = "Honors and awards I have received."
+description = "Honors and scholarships I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "Yunni and Maxine Pao Memorial Scholarship"
+subtitle = "University of Illinois at Urbana-Champaign"
+date = "2025-2026"
+content = "Fall 2025 & Spring 2026"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
+title = "Gary Whitledge Scholarship"
+subtitle = "University of Illinois at Urbana-Champaign"
+date = "2025-2026"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "Zhang Cheng Family Scholarship"
+subtitle = "University of Illinois at Urbana-Champaign"
+date = "2024-2025"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Dean's List"
+subtitle = "University of Illinois at Urbana-Champaign"
+date = "2022-2025"
+content = "Fall 2022, Spring 2023, Fall 2025"

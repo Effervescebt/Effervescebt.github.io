@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am an incoming Master's student in [Machine Learning](https://www.ml.cmu.edu/) at **Carnegie Mellon University** (starting Fall 2026). I am currently completing my B.S. in Computer Engineering at the **University of Illinois at Urbana-Champaign (UIUC)**, where I have been fortunate to work with [Prof. Jiaxuan You](https://cs.stanford.edu/~jiaxuan/) on multimodal AI and temporal reasoning in LLMs.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+My research interests span **machine learning**, **multimodal AI systems**, and **large language models**. I have contributed to projects on enabling text-only LLMs to reason about visual information ([SeeingEye](https://arxiv.org/abs/2505.13508)) and improving temporal reasoning capabilities of LLMs ([Time-R1](https://arxiv.org/abs/2510.25092)).
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+Previously, I interned at Skytech as an Algorithm Engineer working on LLM prompt engineering, and conducted research on ML-driven printing optimization at the [UIUC DIAO Group](https://diao.chemistry.illinois.edu/).

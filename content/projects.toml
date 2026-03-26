@@ -1,0 +1,24 @@
+type = "card"
+title = "Projects"
+description = "Course and personal projects."
+
+[[items]]
+title = "Distributed File System"
+subtitle = "Course Project"
+date = "Oct 2025 - Dec 2025"
+content = "Built fault-tolerant distributed file system in Python implementing MapReduce framework across multiple Linux VMs with coordinator-worker architecture for parallel data processing. Engineered SDFS operations with integrated failure detector enabling automatic fault recovery, task re-assignment, and parallel SQL query processing supporting SELECT with regex and JOIN operations on large datasets."
+tags = ["Distributed Systems", "Python"]
+
+[[items]]
+title = "Unix-like Operating System Kernel"
+subtitle = "Course Project"
+date = "Oct 2024 - Dec 2024"
+content = "Designed and implemented Unix-like kernel from scratch in C for RISC-V architecture using QEMU emulator, featuring virtual memory management with paging, address translation, and complete file system with inode structures. Built system call interface, device drivers for keyboard and display, and preemptive process scheduler supporting concurrent execution and inter-process communication."
+tags = ["Systems", "C", "OS Kernel"]
+
+[[items]]
+title = "FPGA-Based Game System Design"
+subtitle = "ECE 385 Final Project"
+date = "Sept 2025 - Dec 2025"
+content = "Designed and implemented a hardware-accelerated treasure hunt game on FPGA using Verilog/VHDL, featuring real-time graphics rendering and HDMI video output. Built complete digital system integrating game logic, graphics controller, memory management, and USB keyboard interface on Xilinx FPGA. Achieved 60 FPS performance."
+tags = ["Hardware", "FPGA", "Verilog"]

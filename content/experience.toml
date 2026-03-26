@@ -1,0 +1,24 @@
+type = "card"
+title = "Experience"
+description = "Professional and research experience."
+
+[[items]]
+title = "AI Research Intern"
+subtitle = "U Lab UIUC - Supervised by Prof. Jiaxuan You"
+date = "Feb 2025 - Present"
+content = "Architected Translation First framework using PyTorch with agent-based approach separating perception and reasoning, outperforming 32B models on MMMU and MIA-Bench benchmarks (SeeingEye, arXiv 2025). Designed reinforcement learning training framework for temporal reasoning tasks with three-stage curriculum and dynamic reward systems (Time-R1, arXiv 2025). Built production-grade evaluation infrastructure to benchmark multiple LLMs on knowledge-intensive VQA datasets."
+tags = ["Research", "LLM", "Multimodal AI"]
+
+[[items]]
+title = "Algorithm Engineer Intern"
+subtitle = "Skytech, Nanjing, China"
+date = "May 2024 - Jul 2024"
+content = "Engineered scalable LLM evaluation pipeline using Python and PyTorch, processing 3,000+ instances with automated data validation and orchestration workflows, reducing model training time by 15%. Designed production-ready evaluation framework achieving 20% improvement in system reliability and scoring efficiency."
+tags = ["Internship", "LLM"]
+
+[[items]]
+title = "Research Intern"
+subtitle = "UIUC DIAO Group - Supervised by Prof. Ying Diao"
+date = "Sept 2024 - Dec 2025"
+content = "Engineered end-to-end ML pipeline using Python, scikit-learn, and OpenCV, processing 1000+ high-resolution images with automated data ingestion and model training, achieving 20% accuracy improvement through iterative optimization."
+tags = ["Research", "Machine Learning"]

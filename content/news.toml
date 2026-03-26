@@ -1,7 +1,23 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-09"
+content = "I will be joining **Carnegie Mellon University** as a Master's student in Machine Learning!"
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2026-05"
+content = "Graduated from UIUC with a B.S. in Computer Engineering."
+
+[[news]]
+date = "2025"
+content = "Our paper [*SeeingEye*](https://arxiv.org/abs/2505.13508) is available on arXiv."
+
+[[news]]
+date = "2025"
+content = "Our paper [*Time-R1*](https://arxiv.org/abs/2510.25092) is available on arXiv."
+
+[[news]]
+date = "2025"
+content = "Paper [*An Artificial Intelligence Based Method for Bartending*](https://ieeexplore.ieee.org/document/10942013) accepted by IEEE/CIC ICCC 2025."
+
+[[news]]
+date = "2025"
+content = "Awarded the Yunni and Maxine Pao Memorial Scholarship and Gary Whitledge Scholarship."
