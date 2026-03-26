@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
+const EMOJIS = ['✨', '✨', '✨', '❤️'];
+
 interface Star {
   id: number;
   left: number;
@@ -9,6 +11,7 @@ interface Star {
   duration: number;
   size: number;
   opacity: number;
+  emoji: string;
 }
 
 export default function FallingStars() {
@@ -16,13 +19,14 @@ export default function FallingStars() {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
-    const generated: Star[] = Array.from({ length: 40 }, (_, i) => ({
+    const generated: Star[] = Array.from({ length: 35 }, (_, i) => ({
       id: i,
       left: Math.random() * 100,
       delay: Math.random() * 2,
       duration: 1.5 + Math.random() * 2,
-      size: 2 + Math.random() * 4,
-      opacity: 0.4 + Math.random() * 0.6,
+      size: 16 + Math.random() * 20,
+      opacity: 0.5 + Math.random() * 0.5,
+      emoji: EMOJIS[Math.floor(Math.random() * EMOJIS.length)],
     }));
     setStars(generated);
 
@@ -46,26 +50,23 @@ export default function FallingStars() {
         pointerEvents: 'none',
         zIndex: 9999,
         overflow: 'hidden',
-        transition: 'opacity 1s ease-out',
-        opacity: visible ? 1 : 0,
       }}
     >
       {stars.map((star) => (
-        <div
+        <span
           key={star.id}
           style={{
             position: 'absolute',
             left: `${star.left}%`,
-            top: '-10px',
-            width: `${star.size}px`,
-            height: `${star.size}px`,
-            borderRadius: '50%',
-            background: 'radial-gradient(circle, #ffd700, #ffaa00)',
-            boxShadow: `0 0 ${star.size * 2}px ${star.size}px rgba(255, 215, 0, 0.3)`,
+            top: '-40px',
+            fontSize: `${star.size}px`,
             opacity: star.opacity,
             animation: `starFall ${star.duration}s ${star.delay}s ease-in forwards`,
+            lineHeight: 1,
           }}
-        />
+        >
+          {star.emoji}
+        </span>
       ))}
       <style>{`
         @keyframes starFall {
@@ -77,7 +78,7 @@ export default function FallingStars() {
             opacity: 0.8;
           }
           100% {
-            transform: translateY(105vh) rotate(720deg);
+            transform: translateY(105vh) rotate(360deg);
             opacity: 0;
           }
         }

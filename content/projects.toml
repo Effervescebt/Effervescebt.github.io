@@ -3,6 +3,13 @@ title = "Projects"
 description = "Course and personal projects."
 
 [[items]]
+title = "Ant-Weight Battlebot"
+subtitle = "ECE 445 Senior Design - In Progress"
+date = "Jan 2026 - Present"
+content = "Designing a two-wheel differential drive combat robot (under 2 lbs) with a horizontal drum spinner weapon and dual front wedges. Built around an ESP32-S3 microcontroller for Bluetooth control, with MPU-6050 IMU for gyroscopic stabilization. Features symmetric chassis design for inverted operation, decoupled power rails (14.8V motor / 5V logic), and a communication watchdog for safety. [GitHub](https://github.com/Ziheng-Qi/ECE-445-Labnote)"
+tags = ["Embedded", "Robotics", "Hardware"]
+
+[[items]]
 title = "Distributed File System"
 subtitle = "Course Project"
 date = "Oct 2025 - Dec 2025"
@@ -13,12 +20,12 @@ tags = ["Distributed Systems", "Python"]
 title = "Unix-like Operating System Kernel"
 subtitle = "Course Project"
 date = "Oct 2024 - Dec 2024"
-content = "Designed and implemented Unix-like kernel from scratch in C for RISC-V architecture using QEMU emulator, featuring virtual memory management with paging, address translation, and complete file system with inode structures. Built system call interface, device drivers for keyboard and display, and preemptive process scheduler supporting concurrent execution and inter-process communication."
+content = "Designed and implemented Unix-like kernel from scratch in C for RISC-V architecture using QEMU emulator, featuring virtual memory management with paging, address translation, and complete file system with inode structures. Built system call interface, device drivers for keyboard and display, and preemptive process scheduler supporting concurrent execution and inter-process communication. [GitHub](https://github.com/Effervescebt/Computer-System-Design)"
 tags = ["Systems", "C", "OS Kernel"]
 
 [[items]]
 title = "FPGA-Based Game System Design"
 subtitle = "ECE 385 Final Project"
 date = "Sept 2025 - Dec 2025"
-content = "Designed and implemented a hardware-accelerated treasure hunt game on FPGA using Verilog/VHDL, featuring real-time graphics rendering and HDMI video output. Built complete digital system integrating game logic, graphics controller, memory management, and USB keyboard interface on Xilinx FPGA. Achieved 60 FPS performance."
+content = "Designed and implemented a hardware-accelerated treasure hunt game on FPGA using Verilog/VHDL, featuring real-time graphics rendering and HDMI video output. Built complete digital system integrating game logic, graphics controller, memory management, and USB keyboard interface on Xilinx FPGA. Achieved 60 FPS performance. [GitHub](https://github.com/Ziheng-Qi/FPGA_Game_ECE385)"
 tags = ["Hardware", "FPGA", "Verilog"]
