@@ -1,19 +1,19 @@
 [site]
 title = "Haoru Li"
-description = "Incoming Master's student in Machine Learning at Carnegie Mellon University."
+description = "Master's student in Machine Learning at Carnegie Mellon University."
 favicon = "/favicon.svg"
-last_updated = "March 2026"
+last_updated = "August 2026"
 
 [author]
 name = "Haoru Li"
-title = "Incoming M.S. in ML"
+title = "M.S. in Machine Learning"
 institution = "Carnegie Mellon University"
 avatar = "/avatar.jpg"
 
 [social]
 email = "cathaoru@gmail.com"
-location = "Champaign, IL"
-location_url = "https://maps.google.com/?q=Champaign+IL"
+location = "Pittsburgh, PA"
+location_url = "https://maps.google.com/?q=Pittsburgh+PA"
 google_scholar = "https://scholar.google.com/citations?hl=en&user=EEfe7-4AAAAJ"
 github = "https://github.com/Effervescebt"
 linkedin = "https://www.linkedin.com/in/haoruli1123/"

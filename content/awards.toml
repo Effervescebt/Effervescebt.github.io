@@ -3,6 +3,12 @@ title = "Awards"
 description = "Honors and scholarships I have received."
 
 [[items]]
+title = "Graduated with Highest Honors"
+subtitle = "University of Illinois at Urbana-Champaign"
+date = "2026"
+content = "B.S. in Computer Engineering, with a minor in Mathematics."
+
+[[items]]
 title = "Yunni and Maxine Pao Memorial Scholarship"
 subtitle = "University of Illinois at Urbana-Champaign"
 date = "2025-2026"

@@ -3,10 +3,17 @@ title = "Projects"
 description = "Course and personal projects."
 
 [[items]]
+title = "Cyberbullying Detection with LLMs"
+subtitle = "Collaborative Research Project"
+date = "Aug 2025 - Present"
+content = "Research on detecting implicit, context-dependent cyberbullying beyond surface-level lexical cues, using retrieval-augmented LLMs. Explored parameter-efficient fine-tuning (LoRA/QLoRA) and evaluated open models across multilingual benchmarks with systematic ablations."
+tags = ["LLM", "Retrieval-Augmented", "LoRA"]
+
+[[items]]
 title = "Ant-Weight Battlebot"
-subtitle = "ECE 445 Senior Design - In Progress"
-date = "Jan 2026 - Present"
-content = "Designing a two-wheel differential drive combat robot (under 2 lbs) with a horizontal drum spinner weapon and dual front wedges. Built around an ESP32-S3 microcontroller for Bluetooth control, with MPU-6050 IMU for gyroscopic stabilization. Features symmetric chassis design for inverted operation, decoupled power rails (14.8V motor / 5V logic), and a communication watchdog for safety. [GitHub](https://github.com/Ziheng-Qi/ECE-445-Labnote)"
+subtitle = "ECE 445 Senior Design — 3rd Place"
+date = "Jan 2026 - May 2026"
+content = "Designed and built a two-wheel differential drive combat robot (under 2 lbs) with a horizontal drum spinner weapon and dual front wedges. Built around an ESP32-S3 microcontroller for Bluetooth control, with an MPU-6050 IMU for gyroscopic stabilization. Features a symmetric chassis for inverted operation, decoupled power rails (14.8V motor / 5V logic), and a communication watchdog for safety. Placed **3rd** in the class-wide battlebot competition. [GitHub](https://github.com/Ziheng-Qi/ECE-445-Labnote)\n\n![Final battlebot build](/battlebot-final.jpg)"
 tags = ["Embedded", "Robotics", "Hardware"]
 
 [[items]]
