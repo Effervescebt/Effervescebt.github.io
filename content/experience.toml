@@ -10,11 +10,11 @@ content = "Architected Translation First framework using PyTorch with agent-base
 tags = ["Research", "LLM", "Multimodal AI"]
 
 [[items]]
-title = "Algorithm Engineer Intern"
-subtitle = "Skytech, Nanjing, China"
-date = "May 2024 - Jul 2024"
-content = "Built a scalable LLM evaluation pipeline with Python and PyTorch over 3,000+ examples, with automated data validation and batch scheduling. Designed model scoring and monitoring modules (REST API and logging), improving scoring efficiency by 20% through iterative optimization and shortening the training cycle by 15% with better version management."
-tags = ["Internship", "LLM"]
+title = "AI Application Development Intern"
+subtitle = "Guangzhou Jiagou Juzhen Technology Co., Ltd., Guangzhou, China"
+date = "Jun 2026 - Jul 2026"
+content = "Developed an internal prototype for automated short-video generation using Python, FastAPI, Node.js, and Docker, integrating topic-based script generation with media processing and video assembly end to end. Adapted open-source workflow-automation and AI video-generation components into a containerized demo, exposing backend services through REST APIs and validating the pipeline with lightweight models."
+tags = ["Internship", "Backend", "AI Applications"]
 
 [[items]]
 title = "Research Intern"
@@ -22,3 +22,10 @@ subtitle = "UIUC DIAO Group - Supervised by Prof. Ying Diao"
 date = "Sept 2024 - Dec 2025"
 content = "Engineered end-to-end ML pipeline using Python, scikit-learn, and OpenCV, processing 1000+ high-resolution images with automated data ingestion and model training, achieving 20% accuracy improvement through iterative optimization."
 tags = ["Research", "Machine Learning"]
+
+[[items]]
+title = "Algorithm Engineer Intern"
+subtitle = "Skytech, Nanjing, China"
+date = "May 2024 - Jul 2024"
+content = "Built a scalable LLM evaluation pipeline with Python and PyTorch over 3,000+ examples, with automated data validation and batch scheduling. Designed model scoring and monitoring modules (REST API and logging), improving scoring efficiency by 20% through iterative optimization and shortening the training cycle by 15% with better version management."
+tags = ["Internship", "LLM"]

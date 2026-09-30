@@ -10,6 +10,13 @@ content = "Searching for internships as an international student means checking 
 tags = ["Python", "Automation", "LaTeX", "Open Source"]
 
 [[items]]
+title = "Camera Color Calibration"
+subtitle = "UIUC Diao Group"
+date = "Sept 2024 - Dec 2025"
+content = "Built a colorimetric calibration pipeline in Python (OpenCV, NumPy, colormath) that maps camera RGB to a standard color space, so printed samples can be inspected for color consistently across captures. Linearized raw images by undoing sRGB gamma, gain and white balance, extracted the mean RGB of each ColorChecker patch, and fit an RGB-to-CIE XYZ transform by least squares. Evaluated accuracy with per-patch CIEDE2000 color differences in CIELAB (D65) and applied the calibration to produce color-corrected images."
+tags = ["Computer Vision", "Color Science", "Python"]
+
+[[items]]
 title = "Cyberbullying Detection with LLMs"
 subtitle = "Collaborative Research Project"
 date = "Aug 2025 - Present"
