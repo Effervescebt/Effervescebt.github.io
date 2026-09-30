@@ -2,7 +2,7 @@
 title = "Haoru Li"
 description = "Master's student in Machine Learning at Carnegie Mellon University."
 favicon = "/favicon.svg"
-last_updated = "August 2026"
+last_updated = "September 2026"
 
 [author]
 name = "Haoru Li"
@@ -11,10 +11,10 @@ institution = "Carnegie Mellon University"
 avatar = "/avatar.jpg"
 
 [social]
-email = "cathaoru@gmail.com"
+email = "haorul@andrew.cmu.edu"
 location = "Pittsburgh, PA"
 location_url = "https://maps.google.com/?q=Pittsburgh+PA"
-google_scholar = "https://scholar.google.com/citations?hl=en&user=EEfe7-4AAAAJ"
+google_scholar = "https://scholar.google.com/citations?hl=en&user=TyVNBUUAAAAJ"
 github = "https://github.com/Effervescebt"
 linkedin = "https://www.linkedin.com/in/haoruli1123/"
 
