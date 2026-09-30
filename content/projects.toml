@@ -3,6 +3,13 @@ title = "Projects"
 description = "Course and personal projects."
 
 [[items]]
+title = "Internship Autopilot"
+subtitle = "Open-Source Project"
+date = "Sept 2026"
+content = "Searching for internships as an international student means checking every posting for citizenship, clearance, CPT/OPT and PhD-only restrictions, then rewriting a resume for each role. This open-source pipeline automates both: it collects new internship postings twice a day, screens them with rule-based eligibility checks, and generates a keyword-tailored one-page resume for each remaining role using greedy page packing verified by LaTeX compilation. It integrates the Greenhouse, Lever and Ashby posting APIs, tracks applications in a static HTML/JavaScript dashboard, runs on launchd or cron, and is covered by unit tests in GitHub Actions. [GitHub](https://github.com/Effervescebt/internship-autopilot)"
+tags = ["Python", "Automation", "LaTeX", "Open Source"]
+
+[[items]]
 title = "Cyberbullying Detection with LLMs"
 subtitle = "Collaborative Research Project"
 date = "Aug 2025 - Present"
