@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-10"
+content = "Released [*agent-harness*](https://github.com/Effervescebt/agent-harness), a runtime for tool-using LLM agents, with experiments on how context compression interacts with prompt caching and on self-hosted serving with vLLM."
+
+[[news]]
 date = "2026-09"
 content = "Released [*Internship Autopilot*](https://github.com/Effervescebt/internship-autopilot), an open-source pipeline that screens internship postings for visa eligibility and tailors a one-page resume to each role."
 

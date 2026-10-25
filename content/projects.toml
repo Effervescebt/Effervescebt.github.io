@@ -3,10 +3,17 @@ title = "Projects"
 description = "Course and personal projects."
 
 [[items]]
+title = "LLM Agent Harness and Serving Optimization"
+subtitle = "Personal Project"
+date = "Oct 2026 - Present"
+content = "A runtime for tool-using LLM agents that measures how harness design changes cost and latency. It validates every tool call against a JSON schema, sends bad calls back to the model to repair, runs independent tools in parallel, routes between cheap and strong models, and prices cache reads and writes from the provider's reported usage. On a long-horizon agentic-RAG benchmark built from HotpotQA, rolling context truncation made Claude Sonnet 5.5 4.5x more expensive than keeping the full history, because it broke the prompt-cache prefix 10.4 times per session and cut cache hits from 80% to 16%. The checkpoint compaction strategy I designed keeps the history append-only between batched compactions: 86% fewer prefix breaks, 74% cache hits and 62% lower cost at the same accuracy. Serving Qwen3-8B with vLLM on one GPU, prefix caching reached 92% KV-cache hits and raised throughput 2.6x, and 16-way continuous batching cut cost per session 87%. [GitHub](https://github.com/Effervescebt/agent-harness)"
+tags = ["LLM Agents", "Prompt Caching", "vLLM", "Python"]
+
+[[items]]
 title = "Internship Autopilot"
 subtitle = "Open-Source Project"
 date = "Sept 2026"
-content = "Searching for internships as an international student means checking every posting for citizenship, clearance, CPT/OPT and PhD-only restrictions, then rewriting a resume for each role. This open-source pipeline automates both: it collects new internship postings twice a day, screens them with rule-based eligibility checks, and generates a keyword-tailored one-page resume for each remaining role using greedy page packing verified by LaTeX compilation. It integrates the Greenhouse, Lever and Ashby posting APIs, tracks applications in a static HTML/JavaScript dashboard, runs on launchd or cron, and is covered by unit tests in GitHub Actions. [GitHub](https://github.com/Effervescebt/internship-autopilot)"
+content = "Searching for internships as an international student means checking every posting for citizenship, clearance, CPT/OPT and PhD-only restrictions, then rewriting a resume for each role. This open-source pipeline automates both. Twice a day it collects new postings, screens them with rule-based eligibility checks and tags each one's sponsorship terms, then builds a one-page resume for every remaining role from the user's own bullets, compiling the LaTeX after each addition to keep it to one page. It reads job descriptions through the Greenhouse, Lever and Ashby APIs, recognises the same role listed under different titles, sends an alert within the hour when a priority company posts, and tracks applications in a static dashboard. In my own use it screens about 1,600 postings per run and has generated 555 tailored resumes; 30 unit tests run in GitHub Actions. [GitHub](https://github.com/Effervescebt/internship-autopilot)"
 tags = ["Python", "Automation", "LaTeX", "Open Source"]
 
 [[items]]
@@ -41,7 +48,7 @@ tags = ["Distributed Systems", "Python"]
 title = "Unix-like Operating System Kernel"
 subtitle = "Course Project"
 date = "Oct 2024 - Dec 2024"
-content = "Designed and implemented Unix-like kernel from scratch in C for RISC-V architecture using QEMU emulator, featuring virtual memory management with paging, address translation, and complete file system with inode structures. Built system call interface, device drivers for keyboard and display, and preemptive process scheduler supporting concurrent execution and inter-process communication. [GitHub](https://github.com/Effervescebt/Computer-System-Design)"
+content = "As primary developer in a team of three, implemented a Unix-like kernel for 64-bit RISC-V on QEMU in about 9,300 lines of C and assembly: Sv39 paging with user/kernel isolation, page-fault handling, 12 system calls including fork, exec and wait, an ELF loader, an inode-based file system over a VirtIO block-device driver, a UART console driver and a preemptive timer-driven scheduler with locks. It runs up to 16 concurrent processes and 19 user programs, including two text games. [GitHub](https://github.com/Effervescebt/Computer-System-Design)"
 tags = ["Systems", "C", "OS Kernel"]
 
 [[items]]
