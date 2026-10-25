@@ -10,6 +10,13 @@ content = "A runtime for tool-using LLM agents that measures how harness design 
 tags = ["LLM Agents", "Prompt Caching", "vLLM", "Python"]
 
 [[items]]
+title = "Multi-Image Medical Visual Question Answering"
+subtitle = "CMU 11-777 Multimodal Machine Learning, Team Lead"
+date = "Sept 2026 - Present"
+content = "I lead a five-person team on multi-image medical VQA with the MedFrameQA benchmark: I manage the GitHub repository, assign the five research directions across the team, and communicate with the TAs about the project. My direction is adaptive visual tool use. On a frozen MedGemma-1.5-4B model, appending one cropped frame region before answering raised accuracy from 42.0% to 48.4% on 500 questions with 1,443 images, across seven matched conditions and 4,500 logged inference records. The evaluation excludes 131 source videos already used during development and pins data and model revisions by checksum. Prompting the model to choose the crop region did not beat random crops: it chose the first frame in 97% of cases."
+tags = ["Multimodal", "VLM", "Medical AI", "Team Lead"]
+
+[[items]]
 title = "Internship Autopilot"
 subtitle = "Open-Source Project"
 date = "Sept 2026"
